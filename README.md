@@ -9,6 +9,34 @@ Bold >> Project Instructions
 5) From the data set in step 4. create a second, independent tidy data set with the average of each variable for each activity and each subject
 
 Getting raw data
+- Getting and examining raw data
 Create a local directory "gcdCourseProject" as working directory.
 Download project raw data from zip file URL and extract it under working directory "gcdCourseProject"
-Studies 
+Studied and examined all download files.
+- Construct R raw dataframe
+created "run_analysis.R" script under working directory Using R studio
+load R libraries (dplyr,stringr,data.table,reshaper2,tidyr)
+
+* code example *
+##
+## load libraries
+##
+library(dplyr)
+....
+
+Stored text files under "test" and "train" directories into their corresponding dataframe using function "read.table"
+##
+## Collection of the raw data
+##
+x_testDatadf <- read.table('./UCI HAR Dataset/test/X_test.txt', fill=TRUE, header =FALSE)
+...
+
+Merged raw dataframe into one dataframe with R funcions "rbind" (insert row data) and cbind (insert column data)
+##
+## Create the tidy datafile
+##
+
+
+
+
+
