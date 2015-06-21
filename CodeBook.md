@@ -16,7 +16,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 ### Data Set table
 
-######Column: Subject
+##### Column: Subject
 
 __Description:__ volunteer ID for a group of 30 experiment volunteers within an age bracket of 19-48 years.
 
@@ -26,23 +26,23 @@ __Value:__ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,
 
 __Missing data:__ N/A
 
-######Column: Activity
+##### Column: Activity
 
 __Description:__ Volunteers performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 
 __Format:__ Character
 
 __Value:__ 
-* LAYING
-* SITTING
-* STANDING
-* WALKING           
-* WALKING_DOWNSTAIRS
-* WALKING_UPSTAIRS
+* LAYING : data is collect when volunteers were laying
+* SITTING : data is collect when volunteers were sitting
+* STANDING : data is collect when volunteers were standing
+* WALKING : data is collect when volunteers were walking           
+* WALKING_DOWNSTAIRS : data is collect when volunteers were walking downstairs
+* WALKING_UPSTAIRS : data is collect when volunteers were walking upstairs
 
 __Missing data:__ N/A
 
-######Column: sensor
+##### Column: sensor
 
 __Description:__ Sensors embedded in the smartphone weared by volunteers 
 
@@ -54,7 +54,7 @@ __Value:__
 
 __Missing data:__ N/A
 
-######Column: signal
+##### Column: signal
 
 __Description:__ The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. We captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
 
@@ -109,7 +109,7 @@ __Value:__
 
 __Missing data:__ N/A
 
-######Column: estimated
+##### Column: estimated
 
 __Description:__ 
 
@@ -122,7 +122,7 @@ __Value:__
 __Missing data:__ N/A
 
 
-######Column: mean(value)
+##### Column: mean(value)
 
 __Description:__ The average of experiement result data of each variable for each activity and each subject.
 
