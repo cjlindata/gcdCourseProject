@@ -59,15 +59,25 @@ __Missing data:__ N/A
 __Description:__ The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. We captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
 
 f: frequency domain signals
+
 t: time domain signals
+
 Body: body motion
+
 Gravity: gravity motion
+
 Acc: accelerometer
+
 Gyro: gyroscope
+
 Jerk: The body linear acceleration and angular velocity were derived in time to obtain Jerk signals 
+
 Mag: The magnitude of these three-dimensional signals were calculated using the Euclidean norm.
+
 -X: motion direction is X
+
 -Y: motion direction is Y
+
 -Z: motion direction is Z
 
 __Format:__ Character
