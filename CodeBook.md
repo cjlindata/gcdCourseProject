@@ -33,12 +33,12 @@ __Description:__ Volunteers performed six activities (WALKING, WALKING_UPSTAIRS,
 __Format:__ Character
 
 __Value:__ 
-* LAYING : data is collected when volunteers were laying
-* SITTING : data is collecedt when volunteers were sitting
-* STANDING : data is collected when volunteers were standing
-* WALKING : data is collected when volunteers were walking           
-* WALKING_DOWNSTAIRS : data is collected when volunteers were walking downstairs
-* WALKING_UPSTAIRS : data is collected when volunteers were walking upstairs
+* LAYING : data was collected when volunteers were laying
+* SITTING : data was collecedt when volunteers were sitting
+* STANDING : data was collected when volunteers were standing
+* WALKING : data was collected when volunteers were walking           
+* WALKING_DOWNSTAIRS : data was collected when volunteers were walking downstairs
+* WALKING_UPSTAIRS : data was collected when volunteers were walking upstairs
 
 __Missing data:__ N/A
 
