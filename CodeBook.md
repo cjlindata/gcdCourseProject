@@ -32,8 +32,8 @@ __Description:__
 __Format:__ Character
 
 __Value:__ 
-*Acc
-*Gyro
+* Acc
+* Gyro
 
 #####Column: signal
 
@@ -84,14 +84,14 @@ __Description:__
 __Format:__ Character
 
 __Value:__ 
-*mean
-*std
+* mean
+* std
 
 
 #####Column: mean(value)
 
 __Description:__ 
 
-__Format:__ Character
+__Format:__ numeric
 
 __Value:__ 
