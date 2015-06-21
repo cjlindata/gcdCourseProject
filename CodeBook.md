@@ -7,6 +7,8 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 
 #### Data Set table
+
+
 Column Names | Column Format
 -----------------------------
 Subject      | Numeric
