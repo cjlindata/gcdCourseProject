@@ -44,7 +44,7 @@ __Missing data:__ N/A
 
 #### Column Name: sensor
 
-__Description:__ Sensors embedded in the smartphone weared by volunteers 
+__Description:__ Sensors embedded in the smartphone weared by volunteers to generate experiment data
 
 __Format:__ Character
 
