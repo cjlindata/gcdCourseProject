@@ -42,39 +42,39 @@ __Description:__
 __Format:__ Character
 
 __Value:__ 
-*fBodyAcc-X
-*fBodyAcc-Y
-*fBodyAcc-Z           
-*fBodyAccJerk-X
-*fBodyAccJerk-Y
-*fBodyAccJerk-Z       
-*fBodyAccMag-
-*fBodyBodyAccJerkMag-
-*fBodyBodyGyroJerkMag-
-*fBodyBodyGyroMag-
-*fBodyGyro-X
-*fBodyGyro-Y          
-*fBodyGyro-Z
-*tBodyAcc-X
-*tBodyAcc-Y         
-*tBodyAcc-Z
-*tBodyAccJerk-X
-*tBodyAccJerk-Y     
-*tBodyAccJerk-Z
-*tBodyAccJerkMag-
-*tBodyAccMag-       
-*tBodyGyro-X
-*tBodyGyro-Y
-*tBodyGyro-Z         
-*tBodyGyroJerk-X
-*tBodyGyroJerk-Y
-*tBodyGyroJerk-Z     
-*tBodyGyroJerkMag-
-*tBodyGyroMag-
-*tGravityAcc-X        
-*tGravityAcc-Y
-*tGravityAcc-Z
-*tGravityAccMag-  
+* fBodyAcc-X
+* fBodyAcc-Y
+* fBodyAcc-Z           
+* fBodyAccJerk-X
+* fBodyAccJerk-Y
+* fBodyAccJerk-Z       
+* fBodyAccMag-
+* fBodyBodyAccJerkMag-
+* fBodyBodyGyroJerkMag-
+* fBodyBodyGyroMag-
+* fBodyGyro-X
+* fBodyGyro-Y          
+* fBodyGyro-Z
+* tBodyAcc-X
+* tBodyAcc-Y         
+* tBodyAcc-Z
+* tBodyAccJerk-X
+* tBodyAccJerk-Y     
+* tBodyAccJerk-Z
+* tBodyAccJerkMag-
+* tBodyAccMag-       
+* tBodyGyro-X
+* tBodyGyro-Y
+* tBodyGyro-Z         
+* tBodyGyroJerk-X
+* tBodyGyroJerk-Y
+* tBodyGyroJerk-Z     
+* tBodyGyroJerkMag-
+* tBodyGyroMag-
+* tGravityAcc-X        
+* tGravityAcc-Y
+* tGravityAcc-Z
+* tGravityAccMag-  
 
 
 #####Column: estimated
