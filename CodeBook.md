@@ -19,11 +19,11 @@ __Description:__
 __Format:__ Character
 
 __Value:__ 
-*LAYING
-*SITTINGSTANDING
-*WALKING           
-*WALKING_DOWNSTAIRS
-*WALKING_UPSTAIRS
+* LAYING
+* SITTINGSTANDING
+* WALKING           
+* WALKING_DOWNSTAIRS
+* WALKING_UPSTAIRS
 
 #####Column: sensor
 
