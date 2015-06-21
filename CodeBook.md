@@ -83,39 +83,39 @@ __Description:__ The sensor acceleration signal, which has gravitational and bod
 __Format:__ Character
 
 __Value:__ 
-* fBodyAcc-X : accelerometer signal of frequency domain/body motion/moved in X direction 
-* fBodyAcc-Y : accelerometer signal of frequency domain/body motion/moved in Y direction
-* fBodyAcc-Z  : accelerometer signal of frequency domain/body motion/moved in Z direction         
-* fBodyAccJerk-X : accelerometer Jerk signal of frequency domain/body motion/moved in X direction 
-* fBodyAccJerk-Y : accelerometer Jerk signal of frequency domain/body motion/moved in Y direction
-* fBodyAccJerk-Z : accelerometer Jerk signal of frequency domain/body motion/moved in Z direction     
-* fBodyAccMag : magnitude of accelerometer signal of frequency domain/body motion
-* fBodyBodyAccJerkMag- : magnitude of accelerometer jerk signal of frequency domain/body motion
-* fBodyBodyGyroJerkMag- : magnitude of gyroscope jerk signal of frequency domain/body motion
-* fBodyBodyGyroMag- : magnitude of gyroscope signal of frequency domain/body motion
-* fBodyGyro-X : gyroscope signal of frequency domain/body motion/moved in X direction
-* fBodyGyro-Y : gyroscope signal of frequency domain/body motion/moved in Y direction        
-* fBodyGyro-Z : gyroscope signal of frequency domain/body motion/moved in Z direction
-* tBodyAcc-X : accelerometer signal of time domain/body motion/moved in X direction 
-* tBodyAcc-Y : accelerometer signal of time domain/body motion/moved in Y direction       
-* tBodyAcc-Z : accelerometer signal of time domain/body motion/moved in Z direction 
-* tBodyAccJerk-X : accelerometer Jerk signal of time domain/body motion/moved in X direction
-* tBodyAccJerk-Y : accelerometer Jerk signal of time domain/body motion/moved in Y direction     
-* tBodyAccJerk-Z : accelerometer Jerk signal of time domain/body motion/moved in Z direction
-* tBodyAccJerkMag- : magnitude of accelerometer jerk signal of time domain/body motion
-* tBodyAccMag- : magnitude of accelerometer signal of time domain/body motion      
-* tBodyGyro-X : gyroscope signal of time domain/body motion/moved in X direction
-* tBodyGyro-Y : gyroscope signal of time domain/body motion/moved in Y direction
-* tBodyGyro-Z : gyroscope signal of time domain/body motion/moved in Z direction         
-* tBodyGyroJerk-X : gyroscope Jerk signal of time domain/body motion/moved in X direction
-* tBodyGyroJerk-Y : gyroscope Jerk signal of time domain/body motion/moved in Y direction
-* tBodyGyroJerk-Z : gyroscope Jerk signal of time domain/body motion/moved in Z direction     
-* tBodyGyroJerkMag- : magnitude of gyroscope jerk signal of time domain/body motion
-* tBodyGyroMag- : magnitude of gyroscope signal of time domain/body motion 
-* tGravityAcc-X : accelerometer signal of frequency domain/gravity motion/moved in X direction        
-* tGravityAcc-Y : accelerometer signal of frequency domain/gravity motion/moved in Y direction
-* tGravityAcc-Z : accelerometer signal of frequency domain/gravity motion/moved in Z direction
-* tGravityAccMag- : magnitude of gyroscope jerk signal of time domain/gravity motion  
+*  __fBodyAcc-X :__ accelerometer signal of frequency domain/body motion/moved in X direction 
+* __fBodyAcc-Y :__ accelerometer signal of frequency domain/body motion/moved in Y direction
+* __fBodyAcc-Z  :__ accelerometer signal of frequency domain/body motion/moved in Z direction         
+* __fBodyAccJerk-X :__ accelerometer Jerk signal of frequency domain/body motion/moved in X direction 
+* __fBodyAccJerk-Y :__ accelerometer Jerk signal of frequency domain/body motion/moved in Y direction
+* __fBodyAccJerk-Z :__ accelerometer Jerk signal of frequency domain/body motion/moved in Z direction     
+* __fBodyAccMag :__ magnitude of accelerometer signal of frequency domain/body motion
+* __fBodyBodyAccJerkMag- :__ magnitude of accelerometer jerk signal of frequency domain/body motion
+* __fBodyBodyGyroJerkMag- :__ magnitude of gyroscope jerk signal of frequency domain/body motion
+* __fBodyBodyGyroMag- :__ magnitude of gyroscope signal of frequency domain/body motion
+* __fBodyGyro-X :__ gyroscope signal of frequency domain/body motion/moved in X direction
+* __fBodyGyro-Y :__ gyroscope signal of frequency domain/body motion/moved in Y direction        
+* __fBodyGyro-Z :__ gyroscope signal of frequency domain/body motion/moved in Z direction
+* __tBodyAcc-X :__ accelerometer signal of time domain/body motion/moved in X direction 
+* __tBodyAcc-Y :__ accelerometer signal of time domain/body motion/moved in Y direction       
+* __tBodyAcc-Z :__ accelerometer signal of time domain/body motion/moved in Z direction 
+* __tBodyAccJerk-X :__ accelerometer Jerk signal of time domain/body motion/moved in X direction
+* __tBodyAccJerk-Y :__ accelerometer Jerk signal of time domain/body motion/moved in Y direction     
+* __tBodyAccJerk-Z :__ accelerometer Jerk signal of time domain/body motion/moved in Z direction
+* __tBodyAccJerkMag- :__ magnitude of accelerometer jerk signal of time domain/body motion
+* __tBodyAccMag- :__ magnitude of accelerometer signal of time domain/body motion      
+* __tBodyGyro-X :__ gyroscope signal of time domain/body motion/moved in X direction
+* __tBodyGyro-Y :__ gyroscope signal of time domain/body motion/moved in Y direction
+* __tBodyGyro-Z :__ gyroscope signal of time domain/body motion/moved in Z direction         
+* __tBodyGyroJerk-X :__ gyroscope Jerk signal of time domain/body motion/moved in X direction
+* __tBodyGyroJerk-Y :__ gyroscope Jerk signal of time domain/body motion/moved in Y direction
+* __tBodyGyroJerk-Z :__ gyroscope Jerk signal of time domain/body motion/moved in Z direction     
+* __tBodyGyroJerkMag- :__ magnitude of gyroscope jerk signal of time domain/body motion
+* __tBodyGyroMag- :__ magnitude of gyroscope signal of time domain/body motion 
+* __tGravityAcc-X :__ accelerometer signal of frequency domain/gravity motion/moved in X direction        
+* __tGravityAcc-Y :__ accelerometer signal of frequency domain/gravity motion/moved in Y direction
+* __tGravityAcc-Z :__ accelerometer signal of frequency domain/gravity motion/moved in Z direction
+* __tGravityAccMag- :__ magnitude of gyroscope jerk signal of time domain/gravity motion  
 
 __Missing data:__ N/A
 
