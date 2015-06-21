@@ -7,9 +7,14 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 
 #### Data Set table
-Column Names|Subject|Activity|Sensor|Signal|Estimated|mean(value)
-------------------------------------------------------------------
-Column Format|Numeric|Char   |Char  |Char  |Char     |Numeric
+Column Names | Column Format
+-----------------------------
+Subject      | Numeric
+Activity     | Char
+Sensor       | Char
+Signal       | Char
+Estimated    | Char
+mean(value)  | Numeric
 
 
 #######Column: Subject
