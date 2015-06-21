@@ -6,7 +6,13 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
 
-#####Column: Subject
+#### Data Set table
+Column Names|Subject|Activity|Sensor|Signal|Estimated|mean(value)
+------------------------------------------------------------------
+Column Format|Numeric|Char   |Char  |Char  |Char     |Numeric
+
+
+#######Column: Subject
 
 __Description:__ A group of 30 experiment volunteers within an age bracket of 19-48 years.
 
@@ -14,7 +20,7 @@ __Format:__ Numeric
 
 __Value:__ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30
 
-#####Column: Activity
+#######Column: Activity
 
 __Description:__ 
 
@@ -27,7 +33,7 @@ __Value:__
 * WALKING_DOWNSTAIRS
 * WALKING_UPSTAIRS
 
-#####Column: sensor
+#######Column: sensor
 
 __Description:__ 
 
@@ -37,7 +43,7 @@ __Value:__
 * Acc
 * Gyro
 
-#####Column: signal
+#######Column: signal
 
 __Description:__ 
 
@@ -79,7 +85,7 @@ __Value:__
 * tGravityAccMag-  
 
 
-#####Column: estimated
+#######Column: estimated
 
 __Description:__ 
 
@@ -90,7 +96,7 @@ __Value:__
 * std
 
 
-#####Column: mean(value)
+#######Column: mean(value)
 
 __Description:__ 
 
