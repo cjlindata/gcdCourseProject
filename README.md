@@ -93,7 +93,8 @@ Transform all "signal measurement" types and their numeric data into "variable" 
 tidy_t <- melt(raw_tbl, id.var= c("subject","activity"))
 ```
 
-__Assumption:__ All columns (subject, activity, variable, value) have data,i.e. no N/A or "". __Confirmation__: I checked each column use unique(tidy_t$<column name>) to verify all columns have values and column "variable" content.
+__Assumption:__ All columns (subject, activity, variable, value) have data,i.e. no N/A or "".
+__Confirmation__: I checked each column use unique(tidy_t$<column name>) to verify all columns have values and column "variable" content.
 I examined the variable content pattern. There are two groups 1) xxx-xxx-xxx and 2) xxx-xxx. Package "stringr" function str_split_fixed is used to splite variable column content use "-" as separator and created 3 columns (if there is only one "-" the 3rd column is set to ""). Here are some of pattern examples tBodyAcc-mean()-X, tBodyAcc-std()-Y, fGavityAcc-mean()-Z, fBodyBodyAccJerkMag-mean(). The objective is remove mean() and std() from the content and concated "-XYZ" to signal type such as tBodyAcc. That is transfer "tBodyAcc-std()-Y" to "tBodyAcc-Y" and "std()". A new column "sensor" is added to tidy_t for sensor type (Acc: accelerometer or Gyro: gyroscope). This decomposion is to break column "variable" into to three columns (sensor, signal, and estimated). This break down components have the same row number so pattern search for "Acc" and "Gyro" used to identify the their corresponding row number and assign properated 1) sensor data (Acc or Gyro) 2) estimated (mean or std) and signal (such as tBodyAcc-X or tGarvityAcc-Z)) There are a couple of package stringr functions are used str_detect to detect the pattern is matched or not. paste() to combine "tBodyAcc" and "-X" to "tBodyAcc-X". and str_sub() to remove the "()" from mean() and std(). The column variable is removed after these three new columns were created.
 
 ```{r}
