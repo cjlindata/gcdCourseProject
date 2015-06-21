@@ -1,30 +1,28 @@
-# gcdCourseProject
-Getting and Cleaning Data Course Project Assignment
-
-Bold >> Project Instructions
-Step 1) Merges the training and the test sets to create one data set
-Step 2) Extracts only the measurements on the mean (mean()) and standard deviation (std()) of each measurement
-Step 3) User descriptive activtity names to name the activities in the data set
-Step 4) Appropriately labels the data set with descriptive variable names.
-Step 5) From the data set in step 4. create a second, independent tidy data set with the average of each variable for each activity and each subject
 
 
-Step 1 Merges the training and the test sets to create one data set
+## Getting and Cleaning Data Course Project Instructions
+1. Merges the training and the test sets to create one data set
+2. Extracts only the measurements on the mean (mean()) and standard deviation (std()) of each measurement
+3. User descriptive activtity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names.
+5. From the data set in step 4. create a second, independent tidy data set with the average of each variable for each activity and each subject
 
-Getting raw data
-- Getting and examining raw data
+
+#####Step 1 Merges the training and the test sets to create one data set
+
+1.Getting raw data
++Getting and examining raw data
 Create a local directory "gcdCourseProject" as working directory.
 Download project raw data from zip file URL and extract it under working directory "gcdCourseProject"
 Studied and examined all download files.
-- Construct R raw dataframe
++ Construct R raw dataframe
 created "run_analysis.R" script under working directory Using R studio
 load R libraries (dplyr,stringr,data.table,reshaper2,tidyr)
 
-* code example *
-##
-## load libraries
-##
-library(dplyr)
+**NOTE:** * code example * in italic style
+
+# load libraries
+*library(dplyr)*
 ....
 
 Stored text files under "test" and "train" directories into their corresponding dataframe using function "read.table"
